@@ -3,12 +3,12 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Optional;
 
-public class main {
+public class Application {
     public static void main(String[] args) {
 
         JsonParserToTickets parser = new JsonParserToTickets(new File(
 //                "C:\\Users\\User\\IdeaProjects\\" +
-//                        "IdeaPlatformTesting\\src\\main\\resources\\"
+//                        "IdeaPlatformTesting\\src\\Application\\resources\\"
                 "/mnt/c/users/user/IdeaProjects/IdeaPlatformTesting/target/classes/Tickets.json"
         ));
 
